@@ -9,7 +9,7 @@ const Guestbook = () => {
         <h2>Our <span>Guestbook</span></h2>
         <div className="divider"></div>
       </div>
-      
+
       <div className="reviews-grid">
         <div className="review-card">
           <div className="stars">★★★★★</div>
@@ -26,6 +26,19 @@ const Guestbook = () => {
         <div className="review-card">
           <div className="stars">★★★★★</div>
           <p className="quote">"Excellent catering service for our wedding. Highly professional team."</p>
+        </div>
+        <div className="review-card">
+          <div className="stars">★★★★★</div>
+          <p className="quote">
+            "Delicious food, elegant presentation, and excellent management throughout the event."
+          </p>
+        </div>
+
+        <div className="review-card">
+          <div className="stars">★★★★★</div>
+          <p className="quote">
+            "Their banquet hall ambience and hospitality made our function truly memorable."
+          </p>
         </div>
       </div>
     </section>
