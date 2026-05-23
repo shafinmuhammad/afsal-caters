@@ -13,7 +13,7 @@ const HeaderBar = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const sections = ['home', 'about', 'menu', 'gallery', 'reviews', 'contact'];
+      const sections = ['home', 'about', 'menu', 'gallery', 'reviews', 'reservations', 'contact'];
       let current = '';
       
       for (const section of sections) {
@@ -65,9 +65,10 @@ const HeaderBar = () => {
                 <li><a href="#menu" className={activeSection === 'menu' ? 'active' : ''} onClick={() => handleNavClick('menu')}>SERVICE</a></li>
                 <li><a href="#gallery" className={activeSection === 'gallery' ? 'active' : ''} onClick={() => handleNavClick('gallery')}>GALLERY</a></li>
                 <li><a href="#reviews" className={activeSection === 'reviews' ? 'active' : ''} onClick={() => handleNavClick('reviews')}>REVIEWS</a></li>
+                <li><a href="#reservations" className={activeSection === 'reservations' ? 'active' : ''} onClick={() => handleNavClick('reservations')}>RESERVE</a></li>
                 <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => handleNavClick('contact')}>CONTACT</a></li>
               </ul>
-              <a href="https://wa.me/919946395402" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+              <a href="tel:+919946395402" style={{textDecoration: 'none'}}>
                 <button className="btn-primary mobile-call-btn">ENQUIRY NOW</button>
               </a>
             </div>
@@ -81,6 +82,7 @@ const HeaderBar = () => {
             <li><a href="#menu" className={activeSection === 'menu' ? 'active' : ''} onClick={() => handleNavClick('menu')}>Menu</a></li>
             <li><a href="#gallery" className={activeSection === 'gallery' ? 'active' : ''} onClick={() => handleNavClick('gallery')}>Gallery</a></li>
             <li><a href="#reviews" className={activeSection === 'reviews' ? 'active' : ''} onClick={() => handleNavClick('reviews')}>Reviews</a></li>
+            <li><a href="#reservations" className={activeSection === 'reservations' ? 'active' : ''} onClick={() => handleNavClick('reservations')}>Reserve</a></li>
             <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => handleNavClick('contact')}>Contact</a></li>
           </ul>
           <a href="tel:+919946395402" style={{textDecoration: 'none'}}>

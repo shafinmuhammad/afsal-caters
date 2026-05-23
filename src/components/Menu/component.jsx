@@ -24,7 +24,9 @@ const Menu = () => {
           </div>
           <p>Traditional Kerala Food & Premium Biryani for your special day</p>
           <div className="card-footer" style={{justifyContent: 'flex-end'}}>
-            <button className="order-btn">Enquire Now</button>
+            <a href="tel:+919946395402" style={{textDecoration: 'none'}}>
+              <button className="order-btn">Enquire Now</button>
+            </a>
           </div>
         </div>
         <div className="menu-card">
@@ -34,7 +36,9 @@ const Menu = () => {
           </div>
           <p>Elegant venue for weddings, receptions, and family functions</p>
           <div className="card-footer" style={{justifyContent: 'flex-end'}}>
-            <button className="order-btn">Enquire Now</button>
+            <a href="tel:+919946395402" style={{textDecoration: 'none'}}>
+              <button className="order-btn">Enquire Now</button>
+            </a>
           </div>
         </div>
         <div className="menu-card">
@@ -44,14 +48,18 @@ const Menu = () => {
           </div>
           <p>Wedding planning, stage decoration, and event coordination</p>
           <div className="card-footer" style={{justifyContent: 'flex-end'}}>
-            <button className="order-btn">Enquire Now</button>
+            <a href="tel:+919946395402" style={{textDecoration: 'none'}}>
+              <button className="order-btn">Enquire Now</button>
+            </a>
           </div>
         </div>
       </div>
 
       <div className="menu-cta">
         <p>Can't decide? Let us help you!</p>
-        <button className="whatsapp-btn">Chat on WhatsApp</button>
+        <a href="https://wa.me/919946395402" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+          <button className="whatsapp-btn">Chat on WhatsApp</button>
+        </a>
       </div>
     </section>
   );

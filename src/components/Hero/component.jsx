@@ -16,7 +16,9 @@ const Hero = () => {
             celebration of life. Join us on a culinary journey, and savor the joy with
             every delicious bite.
           </p>
-          <button className="btn-primary">ENQUIRY NOW</button>
+          <a href="tel:+919946395402" style={{textDecoration: 'none'}}>
+            <button className="btn-primary">ENQUIRY NOW</button>
+          </a>
         </div>
         <div className="hero-image-container stacked-container">
           <div className="hero-stacked-img img-3">

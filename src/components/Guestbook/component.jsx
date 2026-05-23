@@ -19,6 +19,14 @@ const Guestbook = () => {
           <div className="stars">★★★★★</div>
           <p className="quote">"Very friendly staff and atmosphere. Happy with their customer dealing."</p>
         </div>
+        <div className="review-card">
+          <div className="stars">★★★★★</div>
+          <p className="quote">"The Biryani was absolutely amazing. All the guests loved it!"</p>
+        </div>
+        <div className="review-card">
+          <div className="stars">★★★★★</div>
+          <p className="quote">"Excellent catering service for our wedding. Highly professional team."</p>
+        </div>
       </div>
     </section>
   );
