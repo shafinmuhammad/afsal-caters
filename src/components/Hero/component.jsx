@@ -1,5 +1,5 @@
-import img2 from '../../assets/round.jpg';
-import img1 from '../../assets/event.webp';
+import img1 from '../../assets/round.jpg';
+import img2 from '../../assets/event.webp';
 import img3 from '../../assets/catering.avif';
 import './style.scss';
 
