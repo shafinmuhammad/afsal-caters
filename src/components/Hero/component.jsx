@@ -1,6 +1,6 @@
-import img1 from '../../assets/round.jpg';
-import img2 from '../../assets/round-plate.avif';
-import img3 from '../../assets/food.avif';
+import img2 from '../../assets/round.jpg';
+import img1 from '../../assets/event.webp';
+import img3 from '../../assets/catering.avif';
 import './style.scss';
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="bg-decoration circle-2"></div>
       <main className="hero-section">
         <div className="hero-content">
-          <h1>Delicious food<br/>always tells a<br/>story</h1>
+          <h1>Bringing Taste &<br/>Celebration Together</h1>
           <p>
             Welcome to the world where food is not just a sustenance; it's a
             celebration of life. Join us on a culinary journey, and savor the joy with
